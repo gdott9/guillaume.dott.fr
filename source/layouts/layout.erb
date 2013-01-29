@@ -2,18 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
+
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
+
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= data.page.title || "The Middleman" %></title>
-    
+    <title><%= data.page.title || "Home" %> | Guillaume DOTT</title>
+
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
+    <%= favicon_tag 'favicon.png' %>
   </head>
-  
+
   <body class="<%= page_classes %>">
+    <header>
+      <div>
+        <h1>Guillaume DOTT</h1>
+        <h2><%= I18n.t(:developer) %></h2>
+      </div>
+      <div id="download_cv">
+        <div id="icon">
+          <a href="/files/CV_Guillaume_DOTT.pdf">
+            <%= image_tag 'pdf.png' %>
+          </a>
+        </div>
+        <p>
+        <a href="/files/CV_Guillaume_DOTT.pdf">
+          <%= I18n.t(:download_resume) %><br />
+        </a>
+        </p>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
