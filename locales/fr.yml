@@ -4,3 +4,6 @@ fr:
   english: "Anglais"
   developer: "Développeur"
   download_resume: "Télecharger mon CV"
+  find_me_github: "Contactez moi sur Github à %{link}"
+  created_with: "Généré avec %{link}."
+  find_site_github: "Want to see the source ? Go on %{link}."

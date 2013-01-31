@@ -31,3 +31,7 @@
 
     .content
       = yield
+
+    %footer
+      %p= I18n.t(:created_with, link: link_to('Middleman', 'http://middlemanapp.com/'))
+      %p= I18n.t(:find_site_github, link: link_to('Github', 'https://github.com/gdott9/guillaume.dott.fr'))
