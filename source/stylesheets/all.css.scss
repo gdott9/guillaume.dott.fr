@@ -4,10 +4,6 @@ body {
   font: 14px Verdana, sans-serif;
   background: #99a;
   color: #eee;
-  & > section {
-    margin: 0 4em;
-    margin-top: 220px;
-  }
 }
 
 a {
@@ -34,7 +30,7 @@ a {
 
     a {
       text-decoration: none;
-      text-transform: uppercase;
+      font-variant: small-caps;
     }
   }
 }
@@ -79,5 +75,34 @@ header {
       font-size: 0.8em;
       font-weight: normal;
     }
+  }
+}
+
+nav {
+  margin-top: 50px;
+  padding: 10px;
+  padding-left: 28em;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: white solid;
+  border-width: 2px 0;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+    }
+  }
+}
+
+.content {
+  margin: 0 4em;
+  margin-top: 140px;
+
+  section {
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid white;
+    padding: 1.2em;
   }
 }

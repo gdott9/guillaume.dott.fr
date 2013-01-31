@@ -2,7 +2,8 @@
 title: Welcome to Middleman
 ---
 
-.welcome
-  %h1 Middleman is Watching
-  %p.doc
-    = link_to "Read Online Documentation", "http://middlemanapp.com"
+%section.welcome
+  = image_tag 'github-original.png'
+  %p
+    = I18n.t(:find_me_github)
+    = link_to 'gdott9', 'https://github.com/gdott9'
