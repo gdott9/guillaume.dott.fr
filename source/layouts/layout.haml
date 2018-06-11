@@ -12,8 +12,8 @@
 
   %body{class: page_classes}
     %ul#lang
-      %li= link_to I18n.t(:french), "/fr/"
-      %li= link_to I18n.t(:english), "/"
+      %li= link_to I18n.t(:french), "/index.html", locale: :fr
+      %li= link_to I18n.t(:english), "/index.html", locale: :en
 
     %header
       %div
