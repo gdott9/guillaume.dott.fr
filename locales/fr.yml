@@ -4,6 +4,7 @@ fr:
   english: "Anglais"
   developer: "Développeur"
   download_resume: "Télecharger mon CV"
-  find_me_github: "Contactez moi sur Github à %{link}"
+  find_me: "Trouvez mon code libre et opensource sur %{link}"
   created_with: "Généré avec %{link}."
-  find_site_github: "Want to see the source ? Go on %{link}."
+  find_site: "Vous voulez voir les sources ? Rendez-vous sur %{link}."
+  gitea: mon instance Gitea
